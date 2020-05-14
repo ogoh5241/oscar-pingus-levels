@@ -1,0 +1,696 @@
+(pingus-level 
+  (version 3)
+  (head 
+    (license "GPLv3+")
+    (levelname "Jump, dig, bash or Die")
+    (description "The first level to be constructed for Anpwa Hotep's world. Beware!")
+    (author "Oscar H")
+    (number-of-pingus 50)
+    (number-to-save 50)
+    (time -1)
+    (music "gd-giirm.s3m")
+    (actions 
+      (basher 1)
+      (blocker 8)
+      (bridger 9)
+      (climber 2)
+      (digger 1)
+      (jumper 4)
+      (miner 1)
+      (slider 6))
+    (levelsize 1920 1200))
+  (objects 
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 101 101 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 250 100 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 400 100 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 551 100 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 701 101 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 851 101 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 100 501 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 250 500 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 400 501 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 550 500 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 700 500 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 850 501 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1002 100 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 994 523 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1151 100 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1144 502 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 998 799 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1143 800 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1300 99 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1451 102 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1294 598 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1291 799 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1442 602 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1438 800 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1597 102 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1593 524 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1581 801 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1747 101 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1741 520 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (surface-background 
+      (surface 
+        (image "textures/blueflame")
+        (modifier "ROT0"))
+      (position 1727 801 -1000)
+      (colori 0 0 0 0)
+      (stretch-x #f)
+      (stretch-y #f)
+      (keep-aspect #f)
+      (scroll-x 0)
+      (scroll-y 0)
+      (para-x 0.5)
+      (para-y 0.5))
+    (smasher 
+      (position 547 130 0))
+    (prefab 
+      (name "prefabs/entrances/woodbox")
+      (position 189 159 0)
+      (overrides ))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/middleprickpiece")
+        (modifier "ROT0"))
+      (position 103 320 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/middleprickpiece")
+        (modifier "ROT0"))
+      (position 252 319 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/middleprickpiece")
+        (modifier "ROT0"))
+      (position 402 317 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/middleprickpiece")
+        (modifier "ROT0"))
+      (position 552 317 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/bigprickpiece")
+        (modifier "ROT0"))
+      (position 102 395 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/bigprickpiece")
+        (modifier "ROT0"))
+      (position 400 391 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/middleprickpiece")
+        (modifier "ROT0"))
+      (position 702 317 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/middleprickpiece")
+        (modifier "ROT0"))
+      (position 852 319 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/pillar2")
+        (modifier "ROT0"))
+      (position 487 188 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/pillar2")
+        (modifier "ROT0"))
+      (position 830 188 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/bigprickpiece")
+        (modifier "ROT0"))
+      (position 98 545 0))
+    (hotspot 
+      (surface 
+        (image "hotspots/desert/smallegyptpic")
+        (modifier "ROT0"))
+      (position 203 569 0)
+      (speed 0)
+      (parallax 0))
+    (hotspot 
+      (surface 
+        (image "hotspots/desert/smallsphinx")
+        (modifier "ROT0"))
+      (position 205 639 0)
+      (speed 0)
+      (parallax 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/bigprickpiece")
+        (modifier "ROT0"))
+      (position 400 543 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/bigprickpiece")
+        (modifier "ROT0"))
+      (position 699 542 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/desert/middlebrickpiece")
+        (modifier "ROT0"))
+      (position 999 316 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/desert/middlebrickpiece")
+        (modifier "ROT0"))
+      (position 1147 315 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/desert/bigbrickpiece")
+        (modifier "ROT0"))
+      (position 997 540 0))
+    (hotspot 
+      (surface 
+        (image "hotspots/desert/bigdimwall")
+        (modifier "ROT0"))
+      (position 1359 317 0)
+      (speed 0)
+      (parallax 0))
+    (hotspot 
+      (surface 
+        (image "hotspots/desert/bigdimwall")
+        (modifier "ROT0"))
+      (position 1358 466 0)
+      (speed 0)
+      (parallax 0))
+    (hotspot 
+      (surface 
+        (image "hotspots/desert/mediumdimwall")
+        (modifier "ROT0"))
+      (position 1508 617 0)
+      (speed 0)
+      (parallax 0))
+    (hotspot 
+      (surface 
+        (image "hotspots/desert/mediumdimwall")
+        (modifier "ROT0"))
+      (position 1357 618 0)
+      (speed 0)
+      (parallax 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_large")
+        (modifier "ROT0"))
+      (position 1295 316 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_large")
+        (modifier "ROT0"))
+      (position 1296 381 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_large")
+        (modifier "ROT0"))
+      (position 1295 445 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_large")
+        (modifier "ROT0"))
+      (position 1294 508 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_large")
+        (modifier "ROT0"))
+      (position 1294 572 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_horiz")
+        (modifier "ROT0"))
+      (position 1295 634 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_horiz")
+        (modifier "ROT0"))
+      (position 1294 665 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_large")
+        (modifier "ROT0"))
+      (position 1659 316 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_large")
+        (modifier "ROT0"))
+      (position 1659 380 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_large")
+        (modifier "ROT0"))
+      (position 1659 444 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_large")
+        (modifier "ROT0"))
+      (position 1660 508 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_large")
+        (modifier "ROT0"))
+      (position 1660 571 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/misc/metalplate_large")
+        (modifier "ROT0"))
+      (position 1660 632 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/desert/bigbrickpiece")
+        (modifier "ROT0"))
+      (position 701 394 0))
+    (groundpiece 
+      (type "solid")
+      (surface 
+        (image "groundpieces/solid/desert/bigbrickpiece")
+        (modifier "ROT0"))
+      (position 1002 389 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/pillar1")
+        (modifier "ROT0"))
+      (position 102 160 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/middleprickpiece")
+        (modifier "ROT0"))
+      (position 1723 315 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/middleprickpiece")
+        (modifier "ROT0"))
+      (position 1722 388 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/middleprickpiece")
+        (modifier "ROT0"))
+      (position 1723 463 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/middleprickpiece")
+        (modifier "ROT0"))
+      (position 1723 535 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/middleprickpiece")
+        (modifier "ROT0"))
+      (position 1724 610 0))
+    (exit 
+      (surface 
+        (image "exits/desert")
+        (modifier "ROT0"))
+      (position 1752 316 0)
+      (owner-id 0))
+    (groundpiece 
+      (type "ground")
+      (surface 
+        (image "groundpieces/ground/desert/pillar1")
+        (modifier "ROT0"))
+      (position 1838 154 0))))
+
+;; EOF ;;
